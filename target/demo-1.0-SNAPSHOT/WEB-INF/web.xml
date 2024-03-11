@@ -3,4 +3,21 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
+
+    <display-name>MyWebApp</display-name>
+
+    <welcome-file-list>
+        <welcome-file>MyJsp.jsp</welcome-file>
+    </welcome-file-list>
+
+    <servlet>
+        <servlet-name>jsp</servlet-name>
+        <jsp-file>/MyJsp.jsp</jsp-file>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>jsp</servlet-name>
+        <url-pattern>/MyJsp.jsp</url-pattern>
+    </servlet-mapping>
+
 </web-app>
