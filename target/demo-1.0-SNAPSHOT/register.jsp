@@ -12,14 +12,14 @@
 </head>
 <body>
 
-<form method="post" action="/register"><!-- within doPost() in servlet-->
+<form method="post" action="http://localhost:8080//demo_war_exploded/register"><!-- within doPost() in servlet-->
     username<input type="text" name="username"/><br/>
     password<input type="password" name="password"/><br/>
     Email<input type="text" name="email"/><br/>
-  Gender: <input type="radio" name="gender" value="male">Male <input type="radio" name="gender" value="femal">Femal<br/>
+    Gender: <input type="radio" name="gender" value="male">Male <input type="radio" name="gender" value="femal">Femal<br/>
     <!-- if name is same it make array -->
-Date of Birth :<input type="text name=" name="birthDate"><br/>
-<input type="submit" value="Register"/>
+    Date of Birth :<input type="text name=" name="birthDate"><br/>
+    <input type="submit" value="Register"/>
 
 </form>
 
